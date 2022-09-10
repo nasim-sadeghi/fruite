@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+box-sizing: border-box;
+/* font-family: 'Katibeh', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tajawal', sans-serif; */
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  flex-direction: row;
+}
+@media (max-width: 700px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }}
+.hero{
+  width:80%;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+/* @media (max-width: 700px) {
+  
+} */
+.navbar img{ width: 8%;}
+.navbar{
+  display: flex;
+  margin:1rem auto;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+
+}
+.navbar ul{ 
+   flex: 1;
+  text-align: right;
+}
+.navbar ul li{
+  display: inline-block;
+  
+margin:0 25px;
+}
+ ul li a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color:#000;
+  font-family: 'Satisfy', cursive;
+}
+.nav-item img{
+  height: 20px;
+  margin-left:50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.banner{
+  display: flex;
+  margin: 4%;
+  width: 100%;
+}
+.right,.left{
+  flex-basis: 50%; 
+}
+.left img{ width:70%; }
+.right { 
+  width:40%;
+  margin-right:6rem;
+}
+.right h1{ 
+  margin-top: 12%;
+  font-size: 4rem; 
+font-family: 'Satisfy';
+color: #e43b71;
+
+}
+.right p{
+  margin-top: 2rem;
+  color:#5b5656;
+  line-height: 1.6rem;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bolder;
+
+
+}
+.right span{
+color: #e43b71;
+}
+.right img{
+  width: 20px;
+}
+.right input{ display: none;}
+.right hr{
+  width:13rem;
+  color: #fe89ac;
+}
+ .btn-primary{
+  background:linear-gradient(#fe89ac, #e43b71);
+  box-shadow: 0 2px 12px rgba(248, 38, 103,0.26);
+  color:#fff;
+  width:7rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  list-style: none;
+  margin-top: 3rem;
+  border:1px none;
+}
+.btn-outline{ box-shadow: 0 2px 12px rgba(248, 38, 103,0.26);
+  color:rgb(243, 15, 151);
+  background: transparent;
+  width:7rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  list-style: none;
+  margin-top: 3rem;   border:1px solid #e43b71;
+}
+.btn-outline:hover{background: #fcd9f3;}
+.btn-primary:hover{background: #f987c2;}
+
